@@ -57,7 +57,8 @@ Es wird das Asterics Grid verwendet, um diese Steuerungen durchzuführen. Die Ta
 
 ### Grid-Konfiguration
 
-Grid Hauptseite!!!!
+<img width="769" alt="Screenshot 2022-12-12 193134" src="https://user-images.githubusercontent.com/82451150/207125939-8c902ff3-3527-4bbe-a4b9-e4666c05cdd6.png">
+
 
 Das Hauptseite -Grid beinhaltet zwei Zimmern und eine Mediensteuerung. Durch das Klicken mit einer Fabi-Button oder das Pusten in die FlipMouse, kann ein Grid ausgewählt werden. Dieses wird zusätzlich laut ausgesprochen und zu einer weiteren Seite des Grids navigiert. Zudem wird eine Asterics Aktion ausgeführt, welches Daten zu einem OpenHab Server sendet. 
 Dabei ist es wichtig ein OpenHab Model in der Asterics Configuration Suite (ACS) hochzuladen und anschließend diese mit dem ARE zu verbinden. 
@@ -70,7 +71,7 @@ Für eine korrekte Verbindung mit dem OpenHab-Server im Smart Homes Labor ist im
 Um die Smart Homes Elemente durch einem Tastendruck oder durch das Pusten/Saugen in die FlipMouse zu steuern, muss die Asterics Aktion richtig konfiguriert werden.
 Als erstes muss eine neue Asterics Aktion angelegt werden. Gleichzeitig sollte das ARE im Hintergrund laufen, damit das Model zum Grid heruntergeladen werden kann. Als nächstes wählt man die Komponente openHAB.1_c und sendet zum Port actionString die richtigen Befehle für die Steuerungen. Im untenstehenden Bild sind die verwendeten Befehle zu sehen.
 
-Grid Foto!!!
+asterics foto
 
 ![TEMP](https://user-images.githubusercontent.com/82451150/207045532-c48d8cfe-2588-44d1-8498-ea859e8564e3.png)
 
@@ -83,20 +84,23 @@ Einpaar Items wie Temperatur Regelung und das Dimmbares Licht Ein-/Ausschalten s
 Im Schlafzimmer Grid können Beleuchtung oder Temperatur ausgewählt werden. Diese leiten zu einer weiteren Seite, wo die Steuerungen als Asterics Aktionen durchgeführt werden. 
 Aufgrund Sandras Sehschwäche wurden große Felder erstellt.
 
-Grid Main temp+licht!!!
-Grig Licht!!!
+<img width="757" alt="Screenshot 2022-12-12 193404" src="https://user-images.githubusercontent.com/82451150/207126325-125b3e0a-e4ea-4693-8b7b-820795cbc9e9.png">
 
+<img width="770" alt="Screenshot 2022-12-12 193443" src="https://user-images.githubusercontent.com/82451150/207126469-f9323a7b-ecf9-438e-875d-ff53cf21284f.png">
 
 ### Temperatur -Grid
 Im Temperatur Grid kann zwischen 5, 10, 15 und 22 Grad ausgewählt werden. Weiters gibt es noch die Option eine automatische Nachtabsenkung zu aktivieren oder zu deaktivieren. 
 
-grid temp!!!!
+<img width="764" alt="Screenshot 2022-12-12 193530" src="https://user-images.githubusercontent.com/82451150/207126630-66ddc2bb-ab06-439b-9932-6b3d46aadc2e.png">
 
 ### Mediensteuerung -Grid
 Mit diesem Grid kann der Fernseher gesteuert werden. 
 Mittels IrTrans Aktuator wurden Infrarot Signale aus der Fernbedienung eingelesen und abgespeichert. Aufgrund Sandras motorischen Beschränkungen wurde im Grid selbst alle wichtigen Tasten des Fernsehers abgebildet. In den untenstehenden Bildern sind die richtigen Einstellungen zu entnehmen. 
+<img width="757" alt="Screenshot 2022-12-12 193619" src="https://user-images.githubusercontent.com/82451150/207127040-6f04fa51-dc95-443b-a39c-8df61c319ef8.png">
+<img width="766" alt="Screenshot 2022-12-12 193635" src="https://user-images.githubusercontent.com/82451150/207127060-f9192f50-666a-4163-8453-7d9<img width="761" alt="Screenshot 2022-12-12 193653" src="https://user-images.githubusercontent.com/82451150/207127071-8b3386c4-e8ac-4cb4-b249-6249bc42df86.png">
+ac51a7ead.png">
+<img width="761" alt="Screenshot 2022-12-12 193707" src="https://user-images.githubusercontent.com/82451150/207127100-092c51f8-8afb-49a5-90f6-bd9c250b57b5.png">
 
- grid visuals!!!!
  setup are!!!
 
 
