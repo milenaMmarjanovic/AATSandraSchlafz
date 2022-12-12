@@ -30,7 +30,7 @@ Computerspielen vertreiben. Sie möchte gerne im Internet surfen oder am Smartph
 
 ## Verwendete Komponenten:
 - Asterics Grid
-- IrTrans (Fernsehersteuerung) 
+- IrTrans (Lampensteuerung) 
 - Sprachsteuerung (Siri)
 - OpenHab
 
@@ -60,7 +60,7 @@ Es wird das Asterics Grid verwendet, um diese Steuerungen durchzuführen. Die Ta
 <img width="769" alt="Screenshot 2022-12-12 193134" src="https://user-images.githubusercontent.com/82451150/207125939-8c902ff3-3527-4bbe-a4b9-e4666c05cdd6.png">
 
 
-Das Hauptseite -Grid beinhaltet zwei Zimmern und eine Mediensteuerung. Durch das Klicken mit einer Fabi-Button oder das Pusten in die FlipMouse, kann ein Grid ausgewählt werden. Dieses wird zusätzlich laut ausgesprochen und zu einer weiteren Seite des Grids navigiert. Zudem wird eine Asterics Aktion ausgeführt, welches Daten zu einem OpenHab Server sendet. 
+Das Hauptseite -Grid beinhaltet zwei Zimmern und eine Lampensteuerung. Durch das Klicken mit einer Fabi-Button oder das Pusten in die FlipMouse, kann ein Grid ausgewählt werden. Dieses wird zusätzlich laut ausgesprochen und zu einer weiteren Seite des Grids navigiert. Zudem wird eine Asterics Aktion ausgeführt, welches Daten zu einem OpenHab Server sendet. 
 Dabei ist es wichtig ein OpenHab Model in der Asterics Configuration Suite (ACS) hochzuladen und anschließend diese mit dem ARE zu verbinden. 
 Für eine korrekte Verbindung mit dem OpenHab-Server im Smart Homes Labor ist im ACS der richtige Hostname unter Properties zu vergeben. (Siehe unten) 
 
@@ -71,11 +71,11 @@ Für eine korrekte Verbindung mit dem OpenHab-Server im Smart Homes Labor ist im
 Um die Smart Homes Elemente durch einem Tastendruck oder durch das Pusten/Saugen in die FlipMouse zu steuern, muss die Asterics Aktion richtig konfiguriert werden.
 Als erstes muss eine neue Asterics Aktion angelegt werden. Gleichzeitig sollte das ARE im Hintergrund laufen, damit das Model zum Grid heruntergeladen werden kann. Als nächstes wählt man die Komponente openHAB.1_c und sendet zum Port actionString die richtigen Befehle für die Steuerungen. Im untenstehenden Bild sind die verwendeten Befehle zu sehen.
 
-asterics foto
+<img width="874" alt="Screenshot 2022-12-12 211353" src="https://user-images.githubusercontent.com/82451150/207145301-fb54d959-3df2-4711-9489-529160e54b22.png">
 
 ![TEMP](https://user-images.githubusercontent.com/82451150/207045532-c48d8cfe-2588-44d1-8498-ea859e8564e3.png)
 
-Einpaar Items wie Temperatur Regelung und das Dimmbares Licht Ein-/Ausschalten sind nicht im Smart Lab integriert und daher nur in der Basic-UI ersichtlich. 
+Ein paar Items wie Temperatur Regelung und das Dimmbares Licht Ein-/Ausschalten sind nicht im Smart Lab integriert und daher nur in der Basic-UI ersichtlich. 
 
 ![Basic-UI](https://user-images.githubusercontent.com/82451150/207045320-c5d92357-c189-4b71-82e7-6f52c126ee66.png)
 
@@ -93,9 +93,10 @@ Im Temperatur Grid kann zwischen 5, 10, 15 und 22 Grad ausgewählt werden. Weite
 
 <img width="764" alt="Screenshot 2022-12-12 193530" src="https://user-images.githubusercontent.com/82451150/207126630-66ddc2bb-ab06-439b-9932-6b3d46aadc2e.png">
 
-### Mediensteuerung -Grid
-Mit diesem Grid kann der Fernseher gesteuert werden. 
+### Lamp -Grid
+Mit diesem Grid kann eine Lampe gesteuert werden. 
 Mittels IrTrans Aktuator wurden Infrarot Signale aus der Fernbedienung eingelesen und abgespeichert. Aufgrund Sandras motorischen Beschränkungen wurde im Grid selbst alle wichtigen Tasten des Fernsehers abgebildet. In den untenstehenden Bildern sind die richtigen Einstellungen zu entnehmen. 
+
 <img width="757" alt="Screenshot 2022-12-12 193619" src="https://user-images.githubusercontent.com/82451150/207127040-6f04fa51-dc95-443b-a39c-8df61c319ef8.png">
 <img width="766" alt="Screenshot 2022-12-12 193635" src="https://user-images.githubusercontent.com/82451150/207127060-f9192f50-666a-4163-8453-7d9ac51a7ead.png">
 
@@ -103,8 +104,7 @@ Mittels IrTrans Aktuator wurden Infrarot Signale aus der Fernbedienung eingelese
 
 <img width="761" alt="Screenshot 2022-12-12 193707" src="https://user-images.githubusercontent.com/82451150/207127100-092c51f8-8afb-49a5-90f6-bd9c250b57b5.png">
 
- setup are!!!
-
+<img width="776" alt="Screenshot 2022-12-12 211142" src="https://user-images.githubusercontent.com/82451150/207145045-c0338600-4045-4389-be74-47bb10abe72c.png">
 
 ### Wohnzimmer -Grid 
 Im Wohnzimmer Grid können die Jalousinen hinauf und hinunter navigiert werden. Auch hier musste der richtige Befehl zu dem Port "ActionString" versendet werden, um das gewünschte Ziel zu erreichen.
@@ -136,8 +136,9 @@ Im untenstehenden Video ist die Kommunikation mit Siri erkennbar.
 
 Hier ist zu sehen wie Siri verwendet wird, um einen Anruf zu tätigen und eine SMS zu schreiben.
 
+https://user-images.githubusercontent.com/82451150/207145633-cadf5ec3-eb92-43ae-8d74-db82b25cfa15.mp4
 
-
+https://user-images.githubusercontent.com/82451150/207145654-16a2ab34-72d2-4f60-a0b3-1bbc685f8ece.mp4
 
 # Ergebnis FitsTask!
 
