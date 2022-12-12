@@ -17,7 +17,7 @@ Computerspielen vertreiben. Sie möchte gerne im Internet surfen oder am Smartph
 ## Wunsch
 ### 1. Umgebungssteuerung
 - Steuerung Licht, Temperatur/Jalousien
-- Fernseher 
+- Visuals erzeugen 
 ### 2. Computer
 - Internet surfen
 - E-Mail schreiben
