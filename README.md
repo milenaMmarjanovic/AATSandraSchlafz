@@ -141,6 +141,10 @@ Hier ist zu sehen wie Siri verwendet wird, um einen Anruf zu tätigen und eine S
 
 # Ergebnis FitsTask!
 
-Das Ergebnis mit dem besten Throughput wurde bereits im zweiten Versuch erreicht.
- 
+![WhatsApp Bild 2022-12-06 um 11 35 07](https://user-images.githubusercontent.com/82451150/207128770-18e05ef0-efab-46fe-b1c8-ba7464df0157.jpg)
+
+Das Ergebnis mit dem besten Throughput wurde im sechsten Versuch erreicht.
+ ![WhatsApp Bild 2022-12-06 um 11 34 52](https://user-images.githubusercontent.com/82451150/207128728-46bdd0e6-ea69-41b5-a0fd-f666777c165e.jpg)
+
 Die Sewquenz mit dem schechtesten Throughput ist aus dem unteren Bild zu entnehmen.
+![WhatsApp Bild 2022-12-06 um 11 34 57](https://user-images.githubusercontent.com/82451150/207128753-0481deac-f200-4d10-9d04-d7cec5c7bbfb.jpg)
