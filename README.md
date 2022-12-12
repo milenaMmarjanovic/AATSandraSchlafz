@@ -117,9 +117,9 @@ Für den Wunsch Sandras Computerspiele spielen zu können und Emails zu schreibe
 Unter dem Feld Barrierefreiheit "Sehen" wurde die Bildschirmlupe um 300% vergrößert und ein Rot-Grün Farbfilter aktiviert. Zudem wurde ebenfalls die Sprachausgabe aktiviert. 
 Für eine einfachere Handhabung des Kommunizierns werden Emails über die Sprachassistentin Siri mittels SmartPhones versendet. Als Alternative zum Versenden von Mails kann auch der Computer verwendet werden. Hierfür wird die Bildschirmtastatur mittels FlipMouse angesteuert.
 
-![barierre](https://user-images.githubusercontent.com/82451150/207046183-6891c529-9c2b-4441-9a7f-ecdecfe82272.png)
-![lupe](https://user-images.githubusercontent.com/82451150/207046231-dadf8504-c936-44ba-b72d-cacd32813f17.png)
-![farben](https://user-images.githubusercontent.com/82451150/207046275-a30c5108-c128-4b36-b198-d89c6a682b51.png)
+![barierre](https://user-images.githubusercontent.com/82451150/207147829-999fa27f-4e06-480c-b913-4fcf7ad7b4b2.png)
+![lupe](https://user-images.githubusercontent.com/82451150/207147841-ce0065e2-7f5e-4c5b-8c7b-463491296256.png)
+![farben](https://user-images.githubusercontent.com/82451150/207147888-b07c9dd9-63e8-41f4-8ec4-015dc9975c9d.png)
 
 
 ### Computerspiel
