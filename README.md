@@ -97,8 +97,10 @@ Im Temperatur Grid kann zwischen 5, 10, 15 und 22 Grad ausgewählt werden. Weite
 Mit diesem Grid kann der Fernseher gesteuert werden. 
 Mittels IrTrans Aktuator wurden Infrarot Signale aus der Fernbedienung eingelesen und abgespeichert. Aufgrund Sandras motorischen Beschränkungen wurde im Grid selbst alle wichtigen Tasten des Fernsehers abgebildet. In den untenstehenden Bildern sind die richtigen Einstellungen zu entnehmen. 
 <img width="757" alt="Screenshot 2022-12-12 193619" src="https://user-images.githubusercontent.com/82451150/207127040-6f04fa51-dc95-443b-a39c-8df61c319ef8.png">
-<img width="766" alt="Screenshot 2022-12-12 193635" src="https://user-images.githubusercontent.com/82451150/207127060-f9192f50-666a-4163-8453-7d9<img width="761" alt="Screenshot 2022-12-12 193653" src="https://user-images.githubusercontent.com/82451150/207127071-8b3386c4-e8ac-4cb4-b249-6249bc42df86.png">
-ac51a7ead.png">
+<img width="766" alt="Screenshot 2022-12-12 193635" src="https://user-images.githubusercontent.com/82451150/207127060-f9192f50-666a-4163-8453-7d9ac51a7ead.png">
+
+<img width="761" alt="Screenshot 2022-12-12 193653" src="https://user-images.githubusercontent.com/82451150/207127071-8b3386c4-e8ac-4cb4-b249-6249bc42df86.png">
+
 <img width="761" alt="Screenshot 2022-12-12 193707" src="https://user-images.githubusercontent.com/82451150/207127100-092c51f8-8afb-49a5-90f6-bd9c250b57b5.png">
 
  setup are!!!
@@ -107,7 +109,7 @@ ac51a7ead.png">
 ### Wohnzimmer -Grid 
 Im Wohnzimmer Grid können die Jalousinen hinauf und hinunter navigiert werden. Auch hier musste der richtige Befehl zu dem Port "ActionString" versendet werden, um das gewünschte Ziel zu erreichen.
   
-Jalusien grid!!!
+<img width="752" alt="Screenshot 2022-12-12 194140" src="https://user-images.githubusercontent.com/82451150/207127930-4ee52153-0080-4ab3-a9bd-1634fb3b6a85.png">
 
 ## Computer
 ### Accessibility Settings
