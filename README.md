@@ -65,7 +65,7 @@ Dabei ist es wichtig ein OpenHab Model in der Asterics Configuration Suite (ACS)
 Für eine korrekte Verbindung mit dem OpenHab-Server im Smart Homes Labor ist im ACS der richtige Hostname unter Properties zu vergeben. (Siehe unten) 
 
 ![ACS](https://user-images.githubusercontent.com/82451150/207045139-b913a3c3-9a78-4084-918a-08d4bf8dac94.png)
-
+<img width="939" alt="Screenshot 2022-12-12 213223" src="https://user-images.githubusercontent.com/82451150/207148853-2c2515e6-d449-43f4-8c99-9b70da8835d9.png">
 
 ### Asterics Aktion bearbeiten
 Um die Smart Homes Elemente durch einem Tastendruck oder durch das Pusten/Saugen in die FlipMouse zu steuern, muss die Asterics Aktion richtig konfiguriert werden.
@@ -96,6 +96,8 @@ Im Temperatur Grid kann zwischen 5, 10, 15 und 22 Grad ausgewählt werden. Weite
 ### Lamp -Grid
 Mit diesem Grid kann eine Lampe gesteuert werden. 
 Mittels IrTrans Aktuator wurden Infrarot Signale aus der Fernbedienung eingelesen und abgespeichert. Aufgrund Sandras motorischen Beschränkungen wurde im Grid selbst alle wichtigen Tasten des Fernsehers abgebildet. In den untenstehenden Bildern sind die richtigen Einstellungen zu entnehmen. 
+
+<img width="926" alt="Screenshot 2022-12-12 213252" src="https://user-images.githubusercontent.com/82451150/207148937-ac68d7db-8e5e-4f6f-b9f8-61d2708a3a0a.png">
 
 <img width="757" alt="Screenshot 2022-12-12 193619" src="https://user-images.githubusercontent.com/82451150/207127040-6f04fa51-dc95-443b-a39c-8df61c319ef8.png">
 <img width="766" alt="Screenshot 2022-12-12 193635" src="https://user-images.githubusercontent.com/82451150/207127060-f9192f50-666a-4163-8453-7d9ac51a7ead.png">
